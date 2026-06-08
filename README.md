@@ -1,15 +1,7 @@
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Mustadz0",
-  "url": "https://github.com/Mustadz0",
-  "description": "Open-source Python developer building free automation tools for small businesses. Creator of stripe-qbo-converter, contract-scanner, and price-tracker.",
-  "knowsAbout": ["Python", "FastAPI", "Automation", "Web Scraping", "Groq AI", "QuickBooks"],
-  "seeks": ["Open source collaboration", "Tool ideas from real-world problems"]
-}
-</script>
-
+<!--
+GitHub Profile README
+SEO: schema.org/Person data available via JSON-LD at profile metadata
+-->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Mustadz0;Open-Source+Tools+Builder;Python+%26+Automation" alt="Mustadz0 - Open-source Python developer building free automation and business tools" />
 </p>
