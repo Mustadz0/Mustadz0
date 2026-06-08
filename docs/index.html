@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mustadz0 — Open-Source Tools</title>
-<meta name="description" content="Free, open-source tools built from real-world problems. Stripe to QBO converter, AI contract scanner, and competitor price tracker.">
+<meta name="description" content="Free, open-source tools built from real-world problems. Stripe to QBO converter, AI contract scanner, price tracker, invoice reconciliation, content repurposing, and AI data analyst.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -192,6 +192,9 @@
   .project-card:nth-child(1){animation:fadeUp .5s ease-out .4s both}
   .project-card:nth-child(2){animation:fadeUp .5s ease-out .5s both}
   .project-card:nth-child(3){animation:fadeUp .5s ease-out .6s both}
+  .project-card:nth-child(4){animation:fadeUp .5s ease-out .7s both}
+  .project-card:nth-child(5){animation:fadeUp .5s ease-out .8s both}
+  .project-card:nth-child(6){animation:fadeUp .5s ease-out .9s both}
 </style>
 </head>
 <body>
@@ -230,7 +233,7 @@
   <section id="tools" style="margin-top:20px">
     <div class="section-title">
       Tools
-      <span class="count">3 projects</span>
+      <span class="count">6 projects</span>
     </div>
     <p class="section-sub">Each one solves a specific pain point for small businesses and freelancers</p>
 
@@ -282,6 +285,56 @@
           <a href="https://github.com/Mustadz0/price-tracker#english" class="secondary">Quick Start</a>
         </div>
       </div>
+
+      <div class="project-card">
+        <div class="icon">&#x1F4C4;</div>
+        <h3>invoice-reconciler</h3>
+        <div class="desc">
+          AI-powered invoice reconciliation. Upload invoices (PDF/TXT/OCR), import bank CSV,
+          and auto-match with fuzzy logic + Groq AI. CSV and PDF reports with discrepancy detection.
+        </div>
+        <div class="tags">
+          <span>Python</span><span>Groq AI</span><span>PyMuPDF</span><span>FastAPI</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/Mustadz0/invoice-reconciler" class="primary">View on GitHub</a>
+          <a href="https://github.com/Mustadz0/invoice-reconciler#invoice-reconciler" class="secondary">Quick Start</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="icon">&#x2699;&#xFE0F;</div>
+        <h3>content-forge</h3>
+        <div class="desc">
+          One source, every platform. Transform articles, videos, or notes into optimized posts
+          for Twitter, LinkedIn, Instagram, TikTok, Blog, Newsletter, Facebook, YouTube.
+          6 languages, 5 tones. Powered by Groq AI.
+        </div>
+        <div class="tags">
+          <span>Python</span><span>Groq AI</span><span>FastAPI</span><span>6 Languages</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/Mustadz0/content-repurposer" class="primary">View on GitHub</a>
+          <a href="https://github.com/Mustadz0/content-repurposer#content-forge" class="secondary">Quick Start</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="icon">&#x1F4CA;</div>
+        <h3>data-analyst</h3>
+        <div class="desc">
+          Chat with your data in plain English. Upload CSV/Excel/JSON/SQLite, ask questions,
+          and get answers with auto-generated charts. AI writes pandas code, self-heals errors,
+          and remembers conversation context.
+        </div>
+        <div class="tags">
+          <span>Python</span><span>Groq AI</span><span>Pandas</span><span>Matplotlib</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/Mustadz0/data-analyst" class="primary">View on GitHub</a>
+          <a href="https://github.com/Mustadz0/data-analyst#ai-data-analyst" class="secondary">Quick Start</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -311,6 +364,21 @@
           <td>price-tracker</td>
           <td class="subreddit">r/ecommerce</td>
           <td>&ldquo;Checking competitor prices manually every day is killing my productivity&rdquo;</td>
+        </tr>
+        <tr>
+          <td>invoice-reconciler</td>
+          <td class="subreddit">r/bookkeeping</td>
+          <td>&ldquo;Matching invoices to bank statements manually every month is soul-crushing&rdquo;</td>
+        </tr>
+        <tr>
+          <td>content-forge</td>
+          <td class="subreddit">r/marketing</td>
+          <td>&ldquo;Writing unique content for 5 platforms from one idea takes all day&rdquo;</td>
+        </tr>
+        <tr>
+          <td>data-analyst</td>
+          <td class="subreddit">r/SaaS</td>
+          <td>&ldquo;I just want to ask my CSV a question without learning pandas&rdquo;</td>
         </tr>
       </tbody>
     </table>
